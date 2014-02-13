@@ -1,7 +1,7 @@
 # Hazelcast Benchmark
 
 This project allows to test the Hazelcast Distributed Map performance.
-It shows the benefits of [localKeySet](http://hazelcast.googlecode.com/svn-history/r1068/javadoc/com/hazelcast/core/IMap.html#localKeySet()) and
+It shows the benefits of [localKeySet](http://hazelcast.googlecode.com/svn-history/r1068/javadoc/com/hazelcast/core/IMap.html#localKeySet%28%29) and
  [backup reads](http://www.hazelcast.org/docs/latest/manual/html-single/#MapBackup).
 
 ## How to launch
