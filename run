@@ -1,0 +1,9 @@
+#!/usr/bin/env jruby
+require 'bm'
+
+if ARGV[0] == "node"
+  BM.new
+else
+  BM.new.start!((ARGV[0] || 100).to_i, (ARGV[1] || 10).to_i)
+  exit
+end
